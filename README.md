@@ -7,14 +7,14 @@ Flask project template contains a working example of a Flask project with featur
 
 # How to start
 - Clone project
-- Install virtual environment python with libraries in requirements.txt
+- Install virtual environment python with libraries in requirements.txt\
     `python -m venv env`\
     `env\Scripts\activate`\
     `pip install -r requirements.txt`\
 - Change username and password for mysql database in __init__.py
-- Migrate database into your mysql database
+- Migrate database into your mysql database\
     `flask db init`\
     `flask db migrate`\
     `flask db upgrade`\
-- Run project
+- Run project\
     `python main.py`\
