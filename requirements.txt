@@ -1,0 +1,12 @@
+python-dotenv==0.19.2
+flask_sqlalchemy==2.5.1
+flask_pymysql==0.2.3
+Flask>=1.1
+FLask-Admin
+Flask-Login
+Flask-SQLAIchemy
+SQLAIchemy
+flask-serialize
+Flask-Migrate
+PyJWT
+PyMySQL
