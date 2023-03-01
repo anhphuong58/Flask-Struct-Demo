@@ -8,7 +8,7 @@ import jwt
 from datetime import datetime, timedelta
 from functools import wraps
 from flask_cors import CORS, cross_origin
-import app.dao.admin
+
 
 auth = Blueprint('auth', __name__)
 CORS(auth, support_credentials=True, withCredentials=True,

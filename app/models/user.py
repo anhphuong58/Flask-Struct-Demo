@@ -15,11 +15,7 @@ class User(db.Model, fs_mixin, UserMixin):
     last_name = db.Column(db.String(150))
     address = db.Column(db.String(300))
     phone = db.Column(db.String(20))
-    ROLES = [
-        ('admin', 'Admin'),
-        ('user', 'User')
-    ]
-    role = db.Column(ChoiceType(choices=ROLES))
+    role = db.Column(db.Boolean)
     campaign = db.relationship('Campaign', backref='user', lazy=True)
 
     # serializer fields
